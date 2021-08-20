@@ -1,0 +1,16 @@
+pipeline{
+	agent any
+		stages{
+			stage("Stage1"){
+				steps{
+					echo "main branch- step1"
+				}
+			}
+			stage("Stage2"){
+				steps{
+					echo "main branch- step2"
+				}
+			}
+		}
+}
+			
