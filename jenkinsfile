@@ -3,14 +3,18 @@ pipeline{
 		stages{
 			stage("Stage1"){
 				steps{
-					echo "main branch- step1"
+					echo "demo branch- step1"
 				}
 			}
 			stage("Stage2"){
 				steps{
-					echo "main branch- step2"
+					echo "demo branch- step2"
+				}
+			}
+			stage("Stage3"){
+				steps{
+					echo "demo branch- step3"
 				}
 			}
 		}
 }
-			
